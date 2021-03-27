@@ -1,16 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Bootstrap 5</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link href="bootstrap-5/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
 </head>
+
+
 <body>
-    <h1>Hello Bootstrap</h1>
+    <main class="container">
+        <header class="">
+            <nav class="navbar navbar-light navbar-expand-md">
+                <a href="#" class="nav-brand ">
+                    <img src="img/iconfinder_plane-grey_40951.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navegacao-principal" aria-controls="#navegacao-principal" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navegacao-principal">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link" href="#">VANTAGENS</a>
+                        <a class="nav-link" href="#">DESTINOS</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <figure class="figure d-block">
+            <img src="img/las vegas.jpg" class="figure-img img-fluid mx-auto d-block" alt="Vegas">
+        </figure>
+
+        <div class="row">
+            <div class="col">
+                <h2>CONHEÇA AS VANTAGENS DE VIAJAR CONOSCO</h2>
+                <p>Aqui vem um texto de descrição</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <i class="bi-trophy"></i>
+            </div>
+            <div class="col">
+                <h4>Agendas</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+            <div class="col">
+                <i class="bi-trophy"></i>
+            </div>
+            <div class="col">
+                <h4>Roteiros</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <i class="bi-trophy"></i>
+            </div>
+            <div class="col">
+                <h4>Valores</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+            <div class="col">
+                <i class="bi-trophy"></i>
+            </div>
+            <div class="col">
+                <h4>Conforto</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+
+
+
+    </main>
 
 
     <script src="bootstrap-5/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
